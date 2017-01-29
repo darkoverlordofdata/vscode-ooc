@@ -1,0 +1,26 @@
+{
+    "name": "ooc",
+    "displayName": "vscode-ooc",
+    "description": "ooc syntax",
+    "version": "0.0.1",
+    "publisher": "darkoverlordofdata",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "ooc",
+            "aliases": ["ooc", "ooc"],
+            "extensions": [".ooc"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "ooc",
+            "scopeName": "source.ooc",
+            "path": "./syntaxes/ooc.tmLanguage"
+        }]
+    }
+}
